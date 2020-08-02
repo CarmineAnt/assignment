@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html>
-<title>Assignment Website</title>
+<title>Intro to Web Development Final</title>
 <link rel=icon href=face.png sizes="16x16" type="image/png">
 <head>
 <style>
+	.Div1 {
+		border: 5px outset blue;
+		background-color: lightgreen;
+		text-align: center;
+		}	
+	.Div2 {
+		border: 5px outset blue;
+		background-color: lightgreen;
+		text-align: center;
+		}
+	.Div3 {
+		border: 5px outset red;
+		background-color: lightblue;
+		text-align: center;
+		}
+	.Div4 {
+		border: 5px outset yellow;
+		background-color: orange;
+		text-align: center;
+		}
+
+div  {width: 320px;
+	  padding: 25px;
+	  margin: 10px;
+	  display: inline-grid;
+}
+.one {
+	display: inline-grid;
+	margin: 75px;
+}
 h1   {color: red;}
 h1	 {font-size: 28px}
+h1 	 {font-family: impact}
 p 	 {font-size: 20px}
 p 	 {margin: 35px}
+p 	 {font-family: verdana}
+h3 	 {color: green;
+	  font-size: 36px}
+h3   {font-family: optima}
+h4 	 {color: purple;
+	  font-size: 40px}
+h4   {font-family: geneva}
+h5 	 {color: blue;
+	  font-size: 40px}
+h5   {font-family: monaco}
+body {
+	background-image: url(https://pbs.twimg.com/media/D1sVaCEWoAE7VVj.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
 </style>
 <h1>
-Welcome To My Website
+Welcome to "What I Learned in Intro to Web Development"
 </h1>
 </head>
 <body>
 	<link rel="stylesheet" href="style.css">
 <p style="background-color:yellow;">
-This is my example paragraph. The background has been colored yellow using inline CSS. The line of the background seems to extend far beyond where the text stops but at this point in time I have no clue how to fix that. So oh well. The heading above this has been colored red using Internal CSS. If I had to keep listing things I don't know how to do yet, changing the size of the text (header or paragraph) is definitely one of them. Additionally, the text of the body has been alligned to the center using External CSS.
+To start things off, creating and stylizing a paragraph. The background has been colored yellow using inline CSS. The line of the background seems to extend far beyond where the text stops but at this point in time I have no clue how to fix that. So oh well. The heading above this has been colored red using Internal CSS. If I had to keep listing things I don't know how to do yet, changing the size of the text (header or paragraph) is definitely one of them. Additionally, the text of the body has been alligned to the center using External CSS. The font size and font style of the paragraph, along with the font style of the header, were also changed, and this was all done using Internal CSS.
 </p>
+<div class="Div1">
+	<h2>The Div Elements</h2>
+	<p>I learned how to create and stylize div elements, and stylized them identically.</p>
+</div>
+<div class="Div2">
+	<h2>Keeping them Inline</h2>
+	<p>Using the inline-grid code, I learned how to keep the div elements all on the same line</p>
+</div>
+<div class="Div3">
+	<h2>The Other One</h2>
+	<p>I wanted 3 div elements but ran out of things to say so this one is different looking.</p>
+</div>
+<h4>Let's see what critics have to say!</h4>
+<img src="https://sadanduseless.b-cdn.net/wp-content/uploads/2020/04/thumbs-up-guns13.jpg" style="width:250px;height:250px;" class="one">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBX5UnKh920_L6aR_IKRCSxaqo9AXYFQ7_aA&usqp=CAU" style="width:250px;height:250px;" class="one">
+<img src="https://cdn.shopify.com/s/files/1/2017/9999/files/Double_Thumbs_Up_large.jpg?v=1503664724" style="width:250px;height:250px;" class="one">
+<div class="Div4">
+	<p>"What a website! Definitely looks like code. If I had to guess, it's probably HTML."</p>
+</div>
+<div class="Div4">
+	<p>"I gotta tell ya...of all the sites I've been on, this is one of 'em. You can look at it all day."</p>
+</div>
+<div class="Div4">
+	<p>"It has a url and stuff on it. I don't know what else you could ask for. Except maybe a dog."</p>
+</div>
+<h5>So There You Have It Folks!</h5>
+<p style="background-color: lightblue">I hope you've enjoyed the brief tour of my little website. Coding is not my first language but I'd like to think that over the course of this class I've learned a thing or two and have been able to put together a somewhat presentable page for your viewing pleasure. Oh, and I do have one last treat for you.</p>
+<h3>Click below for a fun surprise!</h3>
+<button type="button" onclick="alert('Thank you for browsing my website!')">Click Here</button>
 </body>
 </html>
